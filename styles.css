@@ -1,0 +1,46 @@
+/* Estilos básicos para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el título principal */
+h1 {
+    color: #333;
+}
+
+/* Estilos para el formulario */
+form {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilos para los inputs */
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efecto hover en los botones */
+button:hover {
+    background-color: #0056b3;
+}

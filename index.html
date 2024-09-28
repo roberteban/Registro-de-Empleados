@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Empleados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registro de Empleados</h1>
+
+    <!-- Formulario para ingresar los datos del empleado -->
+    <form id="empleado-form">
+        <!-- Campo para el Legajo -->
+        <label for="legajo">Legajo:</label>
+        <input type="text" id="legajo" required><br>
+
+        <!-- Campo para el Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br>
+
+        <!-- Campo para el Apellido -->
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required><br>
+
+        <!-- Campo para la Fecha de nacimiento -->
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" required><br>
+
+        <!-- Campo para el Cargo -->
+        <label for="cargo">Cargo:</label>
+        <input type="text" id="cargo" required><br>
+
+        <!-- Botón para agregar empleado -->
+        <button type="button" onclick="agregarEmpleado()">Agregar Empleado</button>
+    </form>
+
+    <!-- Botón para listar todos los empleados -->
+    <button id="listar-empleados" onclick="listarEmpleados()">Listar Empleados</button>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
