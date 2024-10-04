@@ -25,3 +25,4 @@ Este proyecto es una aplicación web que permite registrar empleados ingresando 
 1. Clonar el repositorio.
    ```bash
    git clone https://github.com/roberteban/Registro-de-Empleados.git
+2. Abre el archivo `index.html` en tu navegador web.
